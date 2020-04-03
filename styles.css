@@ -32,7 +32,7 @@ main {
 a,
 a:focus,
 a:hover {
-  color: #116466;
+  color: #009999;
 }
 
 
@@ -106,11 +106,29 @@ body {
 .bg-2 {
   background-color: #AAABB8;
   color: #ffffff;
+
 }
-.bg-3 {
+footer {
   background-color: #29648a;
   color: #ffffff;
+  line-height: 5px;
+  padding: 10px;
+  bottom:0;
+  width:100%;
+  height:60px;
+  position:fixed;
 }
+
+.custumbtn {
+  background-color: #29648a; 
+  color: #ffffff;
+  border:#29648a;
+}
+.custumbtn:hover {
+  background-color: #29648a; 
+}
+
+
 .container-fluid {
-  padding: 70px 200px;
+  padding: 50px 50px;
 }
